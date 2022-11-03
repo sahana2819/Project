@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(47, 203, 255);
+  }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'Courier New', monospace;
+    text-decoration: none;
+    font-size:xx-large ;
+  }
+  .top-right {
+    position: absolute;
+    top: 8px;
+    text-decoration: none;
+    right: 16px;
+    font-family: 'Courier New', monospace;
+    font-size:xx-large ;
+  }
+  .centered {
+    position: absolute;
+    font-size: 85;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Copperplate, Papyrus, fantasy;
+  }
+  .demopara {
+    line-height: 2 ;
+  }
+  h1{
+    font-family: 'Courier New', monospace;
+  }
+  h3{
+    font-family: 'Courier New', monospace;
+    color: rgb(210, 30, 36);
+  }
